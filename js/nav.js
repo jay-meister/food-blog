@@ -1,4 +1,6 @@
 document.getElementById('hamburger-button').addEventListener('click', function(event){
-    document.getElementByClassName('ul-nav-menu').classList.toggle('show');
-    
+
+    console.log(document.getElementsByClassName('ul-nav-menu'));
+    document.getElementsByClassName('ul-nav-menu')[0].classList.toggle('show');
+
 });
