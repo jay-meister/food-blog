@@ -1,0 +1,40 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/*---------------------
+  nav bar
+---------------------*/
+
+nav {
+    background-color: #BCCF02;
+    position: fixed;
+    z-index: 999;
+    height: auto;
+    width: 100%;
+    min-height: 60px;
+}
+
+#home-icon {
+    width: 40px;
+    margin: 10px 20px;
+}
+
+
+/*---------------------
+  splash
+---------------------*/
+
+
+
+/*---------------------
+  home
+---------------------*/
+
+
+/*---------------------
+  footer
+---------------------*/
