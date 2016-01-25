@@ -24,6 +24,7 @@ nav {
     margin: 10px 20px;
 }
 
+/* hambuger button */
 #hamburger-button {
     float: right;
     margin: 15px 22px;
@@ -68,18 +69,17 @@ nav li a{
     color: black;
 }
 
-/* hamburger */
-/*.show {
-    display:inline-block;
-    width: 200px;
-    height: 10px
-}*/
 
 
 /*---------------------
   splash
 ---------------------*/
-
+splash  {
+    height: 100vh;
+    width: 100vw;
+    background: url('assets/splash.jpg') center center no-repeat;
+    background-size:100px 150px;
+}
 
 
 /*---------------------
