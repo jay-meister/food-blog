@@ -2,7 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: courier;
+    font-family: ubuntu;
 }
 
 
@@ -11,17 +11,20 @@
 ---------------------*/
 
 nav {
-    background-color: #BCCF02;
+    background-color: rgba(188, 207, 2, 0.08);
     position: fixed;
     z-index: 999;
-    height: auto;
+    border-bottom: solid 3px rgba(188, 207, 2, 0.76);
     width: 100%;
-    height: 50px;
+    height: 54px;
+    box-shadow: 0px 1px 29px #ECEBEB;
+}
 }
 
 #home-icon {
-    width: 30px;
-    margin: 10px 20px;
+    width: 35px;
+    margin: 7px 0px 5px 13px;
+
 }
 
 /* hambuger button */
@@ -34,15 +37,18 @@ nav {
 .ul-nav-menu {
     position: absolute;
     right: -400px;
-    max-width:400px;
+    max-width: 400px;
     transition: right 0.3s ease;
     width: 75%;
     float: right;
-    background-color: rgba(214, 230, 211, 0.57);
     list-style-type: none;
     font-size: 22px;
     text-align: center;
     padding: 3px;
+    text-align: center;
+    background-color: rgba(188, 207, 2, 0.76);
+    padding: 3px;
+    box-shadow: -3px 3px 12px #BFBFBF;
 }
 .show{
     right: 0px;
@@ -69,6 +75,64 @@ nav li a{
     color: black;
 }
 
+
+@media only screen and (min-width: 600px){
+    nav {
+        background-color: rgba(188, 207, 2, 0.08);
+        border-bottom: 3px solid rgba(188, 207, 2, 0.76);
+        position: fixed;
+        z-index: 999;
+        height: 83px;
+        width: 100%;
+    }
+
+    #home-icon {
+        width: 30px;
+        margin: 13px 0px 0px 25px;
+    }
+    /* hambuger button */
+    #hamburger-button {
+        display: none;
+    }
+
+    .ul-nav-menu {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        box-shadow: none;
+        max-width: none;
+        width: 84%;
+        font-size: 1.1em;
+        background-color: rgba(214, 230, 211, 0);
+}
+
+    .ul-nav-menu li {
+        border: none;
+    }
+
+
+    .nav-link {
+        float: right;
+        padding-right: 4%;
+    }
+
+    .ul-social-nav {
+        position: fixed;
+        top: 44px;
+        left: 15px;
+        width: 231px;
+    }
+
+    /*  Social buttons in nav */
+    .ul-social-nav li{
+        float: left;
+        margin: 0px -7px;
+        padding-left: 10px;
+    }
+    .img-social-nav{
+        width: 20px;
+    }
+}
 
 
 /*---------------------
