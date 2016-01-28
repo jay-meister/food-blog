@@ -29,13 +29,6 @@ nav {
 
 }
 
-/* hambuger button */
-#hamburger-button {
-    float: right;
-    margin: 15px 22px;
-    width: 24px;
-}
-
 .ul-nav-menu {
     position: absolute;
     right: -415px;
@@ -82,10 +75,7 @@ nav li a{
         width: 30px;
         margin: 13px 0px 0px 25px;
     }
-    /* hambuger button */
-    #hamburger-button {
-        display: none;
-    }
+
 
     .ul-nav-menu {
         right: 0px;
@@ -147,3 +137,51 @@ splash  {
 /*---------------------
   hamburger-button
 ---------------------*/
+#nav-icon4 {
+    width: 25px;
+    height: 18px;
+    float: right;
+    margin: 15px 10px;
+    transform: rotate(0deg);
+    cursor: pointer;
+}
+#nav-icon4 span {
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: grey;
+  left: 0;
+  transition: .25s ease-in-out;
+}
+
+#nav-icon4 span:nth-child(1) {
+  top: 0px;
+  transform-origin: left center;
+}
+
+#nav-icon4 span:nth-child(2) {
+  top: 8px;
+  transform-origin: left center;
+}
+
+#nav-icon4 span:nth-child(3) {
+  top: 16px;
+  transform-origin: left center;
+}
+
+#nav-icon4.open span:nth-child(1) {
+  transform: rotate(45deg);
+  top: 1px;
+  left: 4px;
+}
+
+#nav-icon4.open span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+#nav-icon4.open span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: 19px;
+  left: 4px;
+}
