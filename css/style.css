@@ -30,18 +30,15 @@ nav {
 
 .ul-nav-menu {
     position: absolute;
-    right: -415px;
-    max-width: 400px;
-    transition: right 0.3s ease;
-    width: 75%;
-    text-align: center;
-    margin-top: 4px;
-    box-shadow: -1px 4px 8px #F3F3F3;
+    max-height: 0px;
+    transition: max-height 0.3s ease-in-out;
+    width: 100%;
+    left: 0px;
+    /* z-index: 0; */
+    overflow: hidden;
     background-color: rgb(225, 235, 228);
 }
-.show{
-    right: 0px;
-}
+.show{max-height: 400px;}
 
 .nav-link {
     border-top: 1px solid grey;
