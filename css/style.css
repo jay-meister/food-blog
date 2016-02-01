@@ -7,6 +7,13 @@
     list-style-type: none;
 }
 
+/*---------------------
+  grid system
+---------------------*/
+
+
+
+
 
 /*---------------------
   nav bar
@@ -246,16 +253,29 @@ nav li a{
     .page-title {
         margin-top: 115px;
     }
+
     /*recipe-cards*/
-    /*.recipe-card {
+    .recipe-card {
         position: relative;
-        width: 90%;
-        max-width: 400px;
-        height: 250px;
-        border: solid;
+        width: 48%;
+        /* max-width: 400px; */
+        height: 400px;
         margin-top: 30px;
         overflow: hidden;
-        margin-left: 40px;
+        margin-left: 1%;
         float: left;
-    }*/
+        margin-right: 1%;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    .recipe-card {
+        /* position: relative; */
+        width: 69%;
+        height: 500px;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
 }
