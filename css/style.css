@@ -169,41 +169,26 @@ nav li a{
     width:100%;
     top: 117px;
     height: inherit;
-    letter-spacing: 1.5px;
     text-transform: uppercase;
     padding: 20px;
-    padding-top: 35px;
+    padding-top: 20px;
     padding-bottom: 42px;
     transition: all 0.3s ease;
-}
-.recipe-card td {
-    height: 0px;
-    line-height: 0px;
 }
 .icon-column img {
     height: 16px;
     width: 16px;
 }
-.recipe-title {
-    height: 27px;
-    letter-spacing: 0.7px;
-    margin-bottom: 10px;
-}
 .recipe-title td{
     border-bottom: solid 1px;
+    height: 40px;
 }
 .recipe-detail {
     color: rgb(62, 62, 62);
     font-size: 12px;
 }
-.recipe-portions {
-}
-.recipe-cost {
-    height: 10px;
-}
-.recipe-prep-time {
-    height: 10px;
-}
+
+
 /*---------------------
   footer
 ---------------------*/
@@ -259,7 +244,7 @@ nav li a{
         position: relative;
         width: 48%;
         /* max-width: 400px; */
-        height: 400px;
+        //height: 400px;
         margin-top: 30px;
         overflow: hidden;
         margin-left: 1%;
@@ -270,12 +255,9 @@ nav li a{
 
 @media only screen and (min-width: 800px){
     .recipe-card {
-        /* position: relative; */
-        width: 69%;
-        height: 500px;
-        max-width: 500px;
-        margin-left: auto;
-        margin-right: auto;
-        float: none;
+        width: 30%;
+        margin-left: 2%%;
+        margin-right: 2%;
+        float: left;
     }
 }
